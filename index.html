@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel do Colaborador</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header
+      class="p-3 shadow-sm d-flex justify-content-between align-items-center"
+    >
+      <h5 class="mb-0">Olá, <strong>Will</strong></h5>
+
+      <div class="d-flex align-items-center gap-3">
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="theme-toggle">
+            <input type="checkbox" id="theme-toggle" />
+            <div class="slider round">
+              <span class="sun">☀️</span>
+              <span class="moon">🌙</span>
+            </div>
+          </label>
+        </div>
+
+        <div
+          class="points-badge d-flex align-items-center gap-2 px-3 py-2 rounded-pill fw-bold"
+        >
+          <img
+            src="./assets/images/whitecoin.svg"
+            alt="Pontos"
+            class="points-badge-icon"
+          />
+          <span>2.450</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="container py-4">
+      <div class="row g-3 mb-4">
+        <div class="col-6">
+          <div class="card p-3">
+            <div class="card-title-group">
+              <div class="card-icon-circle">
+                <img
+                  src="./assets/images/podiumstar.svg"
+                  alt="Ícone de Ranking"
+                />
+              </div>
+              <span class="small text-muted">Ranking</span>
+            </div>
+            <div class="text-center">
+              <h4 class="mb-0 text-danger">#12</h4>
+              <small class="text-muted">de 87 colaboradores</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card p-3">
+            <div class="card-title-group">
+              <div class="card-icon-circle">
+                <img
+                  src="./assets/images/listmission.svg"
+                  alt="Ícone de Missões"
+                />
+              </div>
+              <span class="small text-muted">Missões</span>
+            </div>
+            <div class="text-center">
+              <h4 class="mb-0 text-danger">18</h4>
+              <small class="text-muted">este mês</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card p-3 mb-4">
+        <div class="meta-card-header">
+          <div class="meta-card-title-group">
+            <div class="card-icon-circle">
+              <img src="./assets/images/clock.svg" alt="Ícone de tempo" />
+            </div>
+            <p class="fw-semibold mb-0">Próxima Meta</p>
+          </div>
+          <img
+            src="./assets/images/meat.svg"
+            alt="Ícone de prêmio"
+            class="meta-card-reward-icon"
+          />
+        </div>
+
+        <div class="d-flex justify-content-between">
+          <span class="meta-points-display">3.000 pontos</span>
+          <span class="text-muted">faltam 550 pontos</span>
+        </div>
+        <div class="progress mt-2" style="height: 8px">
+          <div
+            class="progress-bar bg-danger"
+            role="progressbar"
+            style="width: 82%"
+            aria-valuenow="82"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </div>
+
+      <div class="card p-3 mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h6 class="mb-0 fw-semibold">Missões em Destaque</h6>
+          <span class="fw-bold text-danger">9800 pts</span>
+        </div>
+
+        <div class="mission-item p-2 rounded mb-2">
+          Completar treinamento
+          <span class="text-muted small">- 3 dias restantes</span>
+        </div>
+        <div class="mission-item p-2 rounded mb-2">
+          Participar da reunião
+          <span class="text-muted small">- 1 dia restante</span>
+        </div>
+
+        <a
+          href="#"
+          class="text-danger small fw-semibold d-block text-center mt-3"
+          >Ver todas as missões
+          <img src="./assets/images/rightarrow.svg" alt="ver todas missões"
+        /></a>
+      </div>
+
+      <div class="card p-3">
+        <h6 class="fw-semibold mb-3">Conquistas Recentes</h6>
+
+        <div class="d-flex justify-content-around text-center gap-2">
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <img src="./assets/images/star.svg" alt="Ícone de estrela" />
+            </div>
+            <small>Estrela</small>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <img src="./assets/images/thunder.svg" alt="Ícone de raio" />
+            </div>
+            <small>Veloz</small>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <img src="./assets/images/clock.svg" alt="Ícone de relógio" />
+            </div>
+            <small>Pontual</small>
+          </div>
+        </div>
+
+        <a
+          href="#"
+          class="text-danger small fw-semibold d-block mt-3 text-center"
+        >
+          Ver todas as conquistas
+          <img src="./assets/images/rightarrow.svg" alt="ver todas missões" />
+        </a>
+      </div>
+      <nav class="navbar fixed-bottom">
+        <div class="container d-flex justify-content-around">
+          <a href="#" class="nav-link text-danger"
+            ><i class="bi bi-house-fill"></i
+          ></a>
+          <a href="#" class="nav-link text-muted"
+            ><i class="bi bi-list-task"></i
+          ></a>
+          <a href="#" class="nav-link text-muted"
+            ><i class="bi bi-star-fill"></i
+          ></a>
+          <a href="#" class="nav-link text-muted"
+            ><i class="bi bi-collection-fill"></i
+          ></a>
+        </div>
+      </nav>
+    </main>
+    <footer
+      class="fixed-bottom d-flex justify-content-around p-3 align-items-center"
+    >
+      <a href="#">
+        <img src="./assets/images/home.svg" alt="Botão de Home" />
+      </a>
+      <a href="#">
+        <img src="./assets/images/list.svg" alt="Botão Lista" />
+      </a>
+      <a href="#">
+        <img
+          src="./assets/images/homestar.svg"
+          alt="Botão Conquistas"
+          class="footer-icon-star"
+        />
+      </a>
+      <a href="#">
+        <img src="./assets/images/coin.svg" alt="Botão Loja/Créditos" />
+      </a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
