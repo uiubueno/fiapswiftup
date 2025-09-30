@@ -43,6 +43,10 @@ Este é um projeto de front-end puro, então não há necessidade de um servidor
 
 E pronto! A aplicação estará rodando.
 
+## 📁 Acesso ao projeto
+
+[Veja o projeto final do curso em funcionamento](https://fiapswiftup.vercel.app/)
+
 ## 👨‍💻 Desenvolvedor
 
 Desenvolvido por **[William Bueno]** como parte da avaliação do 2º semestre do curso Swift da FIAP.
